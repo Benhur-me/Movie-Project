@@ -1,0 +1,231 @@
+<!--doctype html-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Movie Industry</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+
+    <!--style----->
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!--navigation-------------->
+    <nav>
+      <!--logo--------------->
+      <a href="#" class="logo">
+        <img src="images/vectortrace.png" />
+      </a>
+      <!--search------------->
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <!--search-icon----------->
+        <i class="fas fa-search"></i>
+      </div>
+      <!--menu--btn----------------->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------------->
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="login.html">Login / Register</a></li>
+      </ul>
+    </nav>
+
+    <!--movies---------------------------->
+    <div class="movies-heading">
+      <h2>Movies</h2>
+    </div>
+    <section id="movies-list">
+      <!--box-1------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton1', '#overlay1')"
+        onmouseleave="hidePlayButton('#playbutton1', '#overlay1')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-1.jpg" />
+        </div>
+
+        <!--text--------->
+        <a href="https://www.youtube.com/watch?v=GXx0bDEy5PM">
+          Star Trek: Into the Darkness
+        </a>
+        <div id="playbutton1" class="play-button">
+          <a href="https://www.youtube.com/watch?v=GXx0bDEy5PM"
+            ><img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay1" class="overlay"></div>
+      </div>
+      <!--box-2------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton2', '#overlay2')"
+        onmouseleave="hidePlayButton('#playbutton2', '#overlay2')"
+      >
+        <!--img------------>
+
+        <div class="movies-img">
+          <img src="images/l-2.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> Fantastic Beasts and Where to Find Them </a>
+        <div id="playbutton2" class="play-button">
+          <a href="https://www.youtube.com/watch?v=ViuDsy7yb8M">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay2" class="overlay"></div>
+      </div>
+      <!--box-3------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton3', '#overlay3')"
+        onmouseleave="hidePlayButton('#playbutton3', '#overlay3')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-3.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> The Croods </a>
+        <div id="playbutton3" class="play-button">
+          <a href="https://www.youtube.com/watch?v=9RfgCxNtrWA">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay3" class="overlay"></div>
+      </div>
+      <!--box-4------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton4', '#overlay4')"
+        onmouseleave="hidePlayButton('#playbutton4', '#overlay4')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-4.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> Toy Story 3 </a>
+
+        <div id="playbutton4" class="play-button">
+          <a href="https://www.youtube.com/watch?v=JcpWXaA2qeg">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay4" class="overlay"></div>
+      </div>
+      <!--box-5------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton5', '#overlay5')"
+        onmouseleave="hidePlayButton('#playbutton5', '#overlay5')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-5.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> COCO </a>
+        <div id="playbutton5" class="play-button">
+          <a href="https://www.youtube.com/watch?v=Ga6RYejo6Hk">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay5" class="overlay"></div>
+      </div>
+      <!--box-6------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton6', '#overlay6')"
+        onmouseleave="hidePlayButton('#playbutton6', '#overlay6')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-6.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> Star Wars: The Rise of Skywalker </a>
+        <div id="playbutton6" class="play-button">
+          <a href="https://www.youtube.com/watch?v=8Qn_spdM5Zg">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay6" class="overlay"></div>
+      </div>
+      <!--box-7------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton7', '#overlay7')"
+        onmouseleave="hidePlayButton('#playbutton7', '#overlay7')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-7.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> Star Wars: Rouge One </a>
+        <div id="playbutton7" class="play-button">
+          <a href="https://www.youtube.com/watch?v=frdj1zb9sMY">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay7" class="overlay"></div>
+      </div>
+      <!--box-8------------------------>
+      <div
+        class="movies-box"
+        onmouseenter="showPlayButton('#playbutton8', '#overlay8')"
+        onmouseleave="hidePlayButton('#playbutton8', '#overlay8')"
+      >
+        <!--img------------>
+        <div class="movies-img">
+          <img src="images/l-8.jpg" />
+        </div>
+        <!--text--------->
+        <a href="#"> Venom II </a>
+        <div id="playbutton8" class="play-button">
+          <a href="https://www.youtube.com/watch?v=-FmWuCgJmxo">
+            <img src="images/play3.jpeg" alt=""
+          /></a>
+        </div>
+        <div id="overlay8" class="overlay"></div>
+      </div>
+    </section>
+    <!--footer------------------>
+    <footer></footer>
+
+    <!--using FontAwesome--------------->
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#autoWidth,#autoWidth2").lightSlider({
+          autoWidth: true,
+          loop: true,
+          onSliderLoad: function () {
+            $("#autoWidth,#autoWidth2").removeClass("cS-hidden");
+          },
+        });
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
